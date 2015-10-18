@@ -8,6 +8,8 @@ install.packages("dplyr")
 library(dplyr)
 install.packages("sqldf")
 library(sqldf)
+install.packages("reshape2")
+library(reshape2)
 
 ## verify directory
 
