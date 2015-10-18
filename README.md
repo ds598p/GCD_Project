@@ -11,11 +11,11 @@ run_Analysis.R script is broken down into 10 phases
   
   Phase  4:  Read in all required data sets -- initially split into test and train data sets
   
-  Phase  5:  Add subject ID, and activity descriptions to measurements to test and train data sets
+  Phase  5:  Apply activity labels to test and train data sets
   
-  Phase  6:  Add row headers to test and train data sets
+  Phase  6:  Combine subject ID and activity ID to measurement test and train data sets
   
-  Phase  7:  Append test and train data sets into a single table
+  Phase  7:  Append test and train data sets into a single table then apply column headers
   
   Phase  8:  Pare data set down to record identifiers and only attributes of interest (Means & STD's)
   
